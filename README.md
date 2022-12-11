@@ -1,3 +1,2 @@
-# rsschool-cv
-my first repositories on GIT HUB 
-i love my :family:, and :bike:.
+https://dmitriyprokopchik.github.io/rsschool-cv/
+https://dmitriyprokopchik.github.io/rsschool-cv/cv
