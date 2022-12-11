@@ -2,6 +2,8 @@
 
 # Dmitry Prokochik
 
+![IMG](https://sun9-24.userapi.com/impg/udO0RSVORsbte56G8Jqw6KRCG-lsfv1c0lYByg/I_eMmiGoKnI.jpg?size=607x1080&quality=95&sign=a2e3aa5ce714b000f371728e81da0c65&type=album)
+
 ## Contacts
 
 * Location: Belarus Byhov 
