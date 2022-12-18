@@ -1,2 +1,64 @@
-.body {
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: silver;
+  padding: 10px 0;
+  border: 2px solid rgb(104, 104, 104);
+}
+
+/* header */
+
+.header {
+  padding: 50px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid rgb(104, 104, 104);
+  background-color: silver;
+  width: 50%;
+}
+
+.photo {
+  height: 350px;
+  border-radius: 3rem;
+}
+
+/* main */
+.main {
+  padding: 50px;
+  margin: 40px auto;
+  border: 2px solid rgb(104, 104, 104);
+  background-color: silver;
+  width: 50%;
+}
+
+.code {
+  margin: 30px;
+  padding: 30px;
+  border: 2px solid black;
+  background-color: rgb(104, 104, 104);
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: silver;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.footer img {
+  height: 50px;
 }

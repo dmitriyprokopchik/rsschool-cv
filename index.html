@@ -1,11 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mycv</title>
-</head>
-<body>
-</body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dmitry Prokopchik. My page</title>
+  </head>
+  <body id="body" class="body">
+    <nav id="nav" class="nav">
+      <a href="#contacts">Contacts</a>
+      <a href="#about_me">About me</a>
+      <a href="#skills">Skills</a>
+      <a href="#code_example">Code exemple</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#language">Language</a>
+    </nav>
+    <header id="contacts" class="header">
+      <div class="header-inner">
+        <h2>Contacts</h2>
+        <ul>
+          <li>
+            Location:
+            <a
+              style="text-decoration: none"
+              href="https://yandex.by/maps/26021/bikhov/house/Z0kYdANiSEIOQFtpfXlycXpgYw==/?ll=30.243075%2C53.530305&z=17.16"
+            >
+              Byhov, Belarus
+            </a>
+          </li>
+          <li>Phone: +375-29-744-39-60</li>
+          <li>E-mail: dimamania1409@gmail.com</li>
+          <li>
+            GitHub:
+            <a
+              style="text-decoration: none"
+              href="https://github.com/dmitriyprokopchik"
+              >dmitryprokopchik
+            </a>
+          </li>
+          <li>Discord: DimaP14091984</li>
+        </ul>
+      </div>
+      <div>
+        <img class="photo" src="../img.jpg" alt="Dmitry" />
+      </div>
+    </header>
+    <main class="main">
+      <div class="about_me" id="about_me">
+        <h2>About ME</h2>
+        I like to enjoy active walks in the fresh air. I do carpentry work. I
+        have leadership experience. Master of Sports in road cycling.
+      </div>
+      <div class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>Git</li>
+        </ul>
+      </div>
+      <div class="Code_example" id="code_example">
+        <h2>Code example</h2>
+        <pre class="code">
+        <code>
+          function sum(a, b) { 
+           return a + b; }
+          let result = sum(1, 2);
+           alert( result );
+        </code>
+       </pre>
+      </div>
+      <div class="Experience" id="experience">
+        <h2>Experience</h2>
+        <ul>
+          <li>Gaining experience at the moment</li>
+        </ul>
+      </div>
+      <div class="Education" id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>School: №2 Byhov</li>
+          <li>University: State Transport University of Gomel</li>
+          <li>Courses: RSSchool JS/FE Pre-School 2022 Q4 (in progress)</li>
+        </ul>
+      </div>
+      <div class="Language" id="language">
+        <h2>Language</h2>
+        <ul>
+          <li>Russian: native speaker</li>
+          <li>English: A1</li>
+        </ul>
+      </div>
+    </main>
+    <footer class="footer">
+      <a id="rsslogo" href="https://rs.school/js/">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool" />
+      </a>
+      <div>2022</div>
+      <a href="https://github.com/dmitriyprokopchik">
+        <img
+          style="height: 50px"
+          src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+          alt="GitHub"
+        />
+      </a>
+    </footer>
+  </body>
 </html>
